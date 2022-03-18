@@ -129,7 +129,7 @@ def register():
     conf.close()
 
 
-# 文件转列表,固化数据
+# 文件转列表函数,用来固化数据
 def trans(path):
     transList = []
     tran = open(path, "r", encoding="utf-8")
